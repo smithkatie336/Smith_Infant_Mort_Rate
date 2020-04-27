@@ -8,7 +8,7 @@ Infant mortality, or the death of an infant before one year of age, provides bot
 
 The script **collect_worldbank_data.py** will produce the csv file **worldbank_data.csv**, which will contain data obtained from www.worldbank.org. This csv will be used, along with a shapefile of South America obtained from **geo.nyu.edu** to visualize a QGIS choropleth map of infant mortality rates in the different countries. This csv will also be read into **analyze_worldbank_data.py** to produce four figures: **Infant_GDP_corr.png**, **Infant_Comm_corr.png**, **Infant_Adol-FR_corr.png**, and **Correlation_matrix**. This script will also produce the **worldbank_data.dta** file to be run in STATA using the **Infant_Mort_Rate** Do-file provided.
 
-Instructions
+**Instructions**
 
 **A. Collecting the data for analysis -> Run collect_worldbank_data.py script**
 
@@ -100,6 +100,7 @@ To create the **Infant_Mort_Rate** Do-file, the following steps were taken:
 5. Save Do-file as 'Infant_Mort_Rate.do'.
 
 **References**
+
 "Country Codes". wits.worldbank.org. Retrieved from https://wits.worldbank.org/wits/wits/witshelp/content/codes/country_codes.htm
 
 "Detailed World Polygons (LSIB), South America, 2013". NYU Spatial Data Repository. Retrieved from https://geo.nyu.edu/catalog/stanford-vc965bq8111
