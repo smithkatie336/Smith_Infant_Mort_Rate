@@ -1,12 +1,15 @@
 # Smith_Infant_Mort_Rate
 
-###Summary
+**Summary**
+
 Infant mortality, or the death of an infant before one year of age, provides both information about infant and maternal health as well as overall societal health ("Infant Mortality" 2019). To analyze factors that may be associated with infant mortality in South America in 2016, data for infant mortality rate, adolescent fertility rate, percent mortality by communicable disease, and GDP per capita were obtained from worldbank.org via API calls. An analysis revealed that while all three variables were correlated with infant mortality, only GDP per capita was significantly associated.
 
-###Deliverables
+**Deliverables**
+
 The script **collect_worldbank_data.py** will produce the csv file **worldbank_data.csv**, which will contain data obtained from www.worldbank.org. This csv will be used, along with a shapefile of South America obtained from **geo.nyu.edu** to visualize a QGIS choropleth map of infant mortality rates in the different countries. This csv will also be read into **analyze_worldbank_data.py** to produce four figures: **Infant_GDP_corr.png**, **Infant_Comm_corr.png**, **Infant_Adol-FR_corr.png**, and **Correlation_matrix**. This script will also produce the **worldbank_data.dta** file to be run in STATA using the **Infant_Mort_Rate** Do-file provided.
 
-###Instructions
+Instructions
+
 **A. Collecting the data for analysis -> Run collect_worldbank_data.py script**
 
 To construct **collect_worldbank_data.py**, the following steps were taken:
@@ -96,7 +99,7 @@ To create the **Infant_Mort_Rate** Do-file, the following steps were taken:
 
 5. Save Do-file as 'Infant_Mort_Rate.do'.
 
-###References
+**References**
 "Country Codes". wits.worldbank.org. Retrieved from https://wits.worldbank.org/wits/wits/witshelp/content/codes/country_codes.htm
 
 "Detailed World Polygons (LSIB), South America, 2013". NYU Spatial Data Repository. Retrieved from https://geo.nyu.edu/catalog/stanford-vc965bq8111

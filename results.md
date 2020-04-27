@@ -1,4 +1,4 @@
-#Results
+Results
 
 The QGIS choropleth map of infant mortality rates in South America show, that although both southern countries Chile and Argentina display a lower infant mortality rate compared to the other countries in South America, the location of the country within the continent does not indicate a pattern in infant mortality rate.
 
